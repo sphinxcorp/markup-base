@@ -1,0 +1,25 @@
+// scoreboard dimentional variables
+$scoreboard-row-height:22px; // the total height of a row
+$scoreboard-grouped-cell-width:82px; // the total width of a group of cells, including: a team name, rank, percentage and arrow icon (bar view)
+$scoreboard-score-cell-width:24px; // the width of a cell for a game score
+$scoreboard-points-cell-width:29px; // the width of a cell for '+points'
+$scoreboard-icon-cell-width:24px; // the width of a cell for icons illustrating state of a pick (warning, arrows)
+$scoreboard-cell-icon-width:14px; // the width of a pick state icon
+$scoreboard-cell-icon-height:14px; // the height of a pick state icon
+$scoreboard-countdown-cell-width:55px; // the width of a cell for a timer (bar view)
+$scoreboard-col-time-width:32px; // the width of a column for a game time when a game is in process (bar view)
+$scoreboard-cell-side-padding:3px; // a normal cell padding
+$scoreboard-cell-schedule-padding:10px; // a padding for a scheduled game (bracket view)
+$scoreboard-cell-border-width:1px; // the width of a transparent border between cells & rows
+$scoreboard-outline-width:1px; // the width of a outline (appears on hover)
+$scoreboard-overlay-icon-diameter:26px; // this is a round icon, so the width and height should be equal (e.g. timeout icon in a bracket view)
+$scoreboard-overlay-icon-bar-view-diameter:18px; // the width & height of the overlay icon in a bar view
+$scoreboard-overlay-icon-border-width:2px; // the width of a border for the overlay icon
+$scoreboard-overlay-icon-shadow:4px 4px 12px #000; // the shadow for the overlay icon
+$scoreboard-bar-view-icon-picked-width:6px; // the width of the arrow illustrating the user's pick (bar view)
+$scoreboard-bar-view-icon-picked-height:8px; // the height of the arrow illustrating the user's pick (bar view)
+$scoreboard-bar-view-icon-countdown-width:11px; // the width of the countdown arrow (bar view)
+$scoreboard-bar-view-icon-countdown-height:11px; // the height of the countdown arrow (bar view)
+$scoreboard-bracket-line-width:1px; // the width of a outer vertical line (bracket view)
+
+$image-url-base: "../../images/" !default;
